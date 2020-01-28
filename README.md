@@ -1,6 +1,7 @@
 # EVICAN-MRCNN
 This is an extension to Matterport Inc’s implementation of Mask R-CNN [https://github.com/matterport/Mask_RCNN] using the EVICAN Dataset by Schwendy et al. [https://edmond.mpdl.mpg.de/imeji/collection/l45s16atmi6Aa4sI].
 Installation: Follow the installation instructions under https://github.com/matterport/Mask_RCNN and copy pycocotools2 and evican.py to samples/coco. To train on the EVICAN dataset use following data structure:
+
   •	Download the files from https://edmond.mpdl.mpg.de/imeji/collection/l45s16atmi6Aa4sI
   •	Create a parent folder called “EVICAN”
   •	Inside this folder, create the subfolders “annotations”, “train2019”, “val2019”, and “eval2019” 
